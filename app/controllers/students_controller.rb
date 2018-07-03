@@ -13,7 +13,6 @@ class StudentsController < ApplicationController
   end
 
   def create
-  	byebug
   	student = Student.create(student_params)
   	redirect_to student
   end
